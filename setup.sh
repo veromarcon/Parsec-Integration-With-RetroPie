@@ -11,7 +11,7 @@ PARSEC_CFG="
     <theme>parsec</theme>
 </system>"
 
-wget https://github.com/veromarcon/Parsec-Integration-With-RetroPie/blob/master/deb/parsec-rpi.deb
+wget https://raw.githubusercontent.com/veromarcon/Parsec-Integration-With-RetroPie/master/deb/parsec-rpi.deb
 sudo dpkg -i parsec-rpi.deb
 sudo rm -rf /etc/emulationstation/themes/carbon/parsec
 rm -rf ~pi/.emulationstation/themes/carbon/parsec
